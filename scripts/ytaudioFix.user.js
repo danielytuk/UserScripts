@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTube One-Ear / Mono Audio Fix (Stereo-Safe, Smart)
-// @namespace    https://github.com/danielytuk/ytaudioFix.user.js
+// @namespace    danielytuk-ytAudioFix
 // @version      2.0.0
 // @description  Automatically fixes one-ear / broken mono audio on YouTube while preserving real stereo when available.
 // @author       danielytuk
