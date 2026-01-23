@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        Win10/11 ISO Downloader
+// @name        Win 11 ISO Downloader
 // @namespace   danielytuk/MSISODL
-// @version     1.0.1
-// @description Download official Microsoft Windows 10 and 11 ISO files even when VPN, firewalls, or restricted corporate networks block Microsoft’s own downloads.
+// @version     1.0.2
+// @description Download official Microsoft Windows 11 ISO files even when VPN, firewalls, or restricted corporate networks block Microsoft’s own downloads.
 // @author      danielytuk
 // @license     Unlicense
 // @match       https://www.microsoft.com/*/software-download/windows*
@@ -363,4 +363,5 @@
   }
 
   log('Initialized (button + arch-aware Gravesoft ISO downloader)');
+
 })();
