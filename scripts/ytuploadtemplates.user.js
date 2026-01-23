@@ -1,20 +1,18 @@
 // ==UserScript==
-// @name         UploadTemplates
-// @namespace    danielytuk-uploadTemplates
-// @version      1.9
-// @description  UploadTemplates let you save and switch between different templates - helping you quickly match each video's metadata to its content.
-// @author       danielytuk
-// @match        https://studio.youtube.com/*
-// @grant        GM_setValue
-// @grant        GM_getValue
-// @license      Unlicense
-// @homepageURL  https://github.com/danielytuk/UserScripts
-// @supportURL   https://github.com/danielytuk/UserScripts/issues
-// @downloadURL  https://raw.githubusercontent.com/danielytuk/UserScripts/refs/heads/main/scripts/yt-uploadtemplates.user.js
-// @updateURL    https://raw.githubusercontent.com/danielytuk/UserScripts/refs/heads/main/scripts/yt-uploadtemplates.user.js
-// @compatible   chrome
-// @compatible   firefox
-// @compatible   edge
+// @name        YouTube Upload Templates
+// @namespace   danielytuk/YTUPTEMP
+// @version     1.0.1
+// @description UploadTemplates let you save and switch between different templates - helping you quickly match each video's metadata to its content.
+// @author      danielytuk
+// @license     Unlicense
+// @match       https://studio.youtube.com/*
+// @homepageURL https://github.com/danielytuk/UserScripts
+// @supportURL  https://github.com/danielytuk/UserScripts/Issues
+// @icon        https://www.youtube.com/yts/img/favicon-vfl8qSV2F.ico
+// @updateURL   https://raw.githubusercontent.com/danielytuk/UserScripts/refs/heads/main/scripts/ytuploadtemplates.user.js
+// @run-at      document-end
+// @grant       GM_getValue
+// @grant       GM_setValue
 // ==/UserScript==
 
 (function() {
