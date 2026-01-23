@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name        YouTube One-Ear/Mono Audio Fix
 // @namespace   danielytuk/YTMONOFIX
-// @version     1.0.1
+// @version     1.0.2
 // @description Preserve stereo and fix mono/one-ear audio.
 // @author      danielytuk
 // @license     Unlicense
 // @match       *://www.youtube.com/watch?v=*
 // @homepageURL https://github.com/danielytuk/UserScripts
 // @supportURL  https://github.com/danielytuk/UserScripts/Issues
-// @icon        https://www.microsoft.com/favicon.ico
+// @icon        https://www.youtube.com/yts/img/favicon-vfl8qSV2F.ico
 // @updateURL   https://raw.githubusercontent.com/danielytuk/UserScripts/refs/heads/main/scripts/ytaudiofix.user.js
 // @run-at      document-end
 // @grant       none
