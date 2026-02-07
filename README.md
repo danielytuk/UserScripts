@@ -1,51 +1,96 @@
 # 🧩 User Scripts Collection
 
-<div>
+A small collection of **userscripts** for browser enhancements, convenience utilities, and site-specific tweaks.
 
-![GitHub license](https://img.shields.io/github/license/danielytuk/UserScripts)
-![GitHub repo size](https://img.shields.io/github/repo-size/danielytuk/UserScripts)
-![Lines of code](https://img.shields.io/tokei/lines/github/danielytuk/UserScripts)
-![Downloads](https://img.shields.io/github/downloads/danielytuk/UserScripts/total)
-
-</div>
+All scripts are located in the `/scripts` directory.  
+Each `.user.js` file is standalone and includes its own metadata and description.
 
 ---
 
-A collection of userscripts for browser enhancements, convenience utilities, and site-specific tweaks.<br />
-All scripts are located in the `/scripts` folder, each with its own purpose and description.
-
----
-
-## 🚀 How to Use These Userscripts
-
-Userscripts need a browser extension to load/run them.
-
-### 1. Install a Userscript Manager
-
-I recommend [Violentmonkey](https://violentmonkey.github.io/).
-
-### 2. Install Scripts
-
-Open any `.user.js` file in this repo and your manager will prompt you to install it.
-
-Example repo structure:
+## 📂 Repository Structure
 
 ```
+
 /scripts/
- ├── ytdl.user.js
- ├── ytaudioFix.user.js
- ├── ytUploadTemplate.user.js
- └── more...
+├── ytdl.user.js
+├── ytaudioFix.user.js
+├── ytUploadTemplate.user.js
+└── more...
+
 ```
 
-### 3. Update & Manage
+---
 
-Userscript managers automatically check for updates based on metadata tags.
-Scripts can be enabled/disabled individually through the extension dashboard.
+## ❓ Why userscripts?
+
+Userscripts are small JavaScript files that run in your browser to modify how websites behave.
+
+They can:
+
+- Fix annoyances or missing features
+- Automate repetitive tasks
+- Add quality-of-life improvements
+- Work across browsers with a userscript manager
+
+Think of them as lightweight, install-only-what-you-need browser extensions.
+
+---
+
+## 🚀 Getting Started
+
+You’ll need a **userscript manager** browser extension.
+
+### Recommended Managers
+
+**Firefox**
+- [Violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/) (open source)
+
+**Brave**
+- [Violentmonkey](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag)
+- [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- [ScriptCat](https://chromewebstore.google.com/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf) (open source)
+
+**Chrome**
+- [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- [ScriptCat](https://chromewebstore.google.com/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf) (open source)
+
+> ⚠️ **Chrome note**  
+> Violentmonkey is no longer supported on Chrome due to Manifest V2 deprecation.  
+> It still works on Firefox and Brave.
+
+---
+
+## 📥 Installing a Script
+
+### Option 1: From GitHub
+
+1. Install a userscript manager
+2. Open any `.user.js` file in `/scripts`
+3. Confirm the install prompt
+
+### Option 2: From GreasyFork
+
+Some scripts are also published on **GreasyFork**, which provides automatic updates and a one-click install.
+
+**Profile:**  
+https://greasyfork.org/en/users/1370111-danielytuk
+
+---
+
+## 🔄 Updates
+
+- Scripts update automatically via metadata
+- Enable, disable, or remove scripts individually
+- Works the same for GitHub and GreasyFork installs
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests, issues, and improvements are welcome!
-Feel free to fork scripts or propose new ones.
+Contributions are welcome.
+
+- Open issues for bugs or feature requests
+- Submit pull requests
+- Fork and adapt scripts for personal use
+
+Please keep scripts focused and compatible with common userscript managers.
